@@ -7,7 +7,7 @@ var express = require('express'),
     app = express();
 
 //DB connect string
-var connect = "postgres://Min:123456@localhost:5433/recipebookdb";
+var connect = "postgres://Min:*******@localhost:5433/recipebookdb";
 
 //assign dust engine to .dust files
 app.engine('dust', cons.dust);
