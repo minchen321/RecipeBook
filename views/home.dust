@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+
+<meta charset="UTF-8"/>
+
+<title>RecipeBook</title>
+<meta name="description" content="Onepage Multipurpose Bootstrap HTML Template">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" media="screen" href="/css/homepage/css/bootstrap.css">
+<link rel="stylesheet" href="/css/homepage/css/font-awesome.css">
+<link rel="stylesheet" href="/css/homepage/css/animate.css">
+<link rel="stylesheet" href="/css/homepage/css/theme.css">
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<!--wrapper start-->
+<div class="wrapper" id="wrapper">
+
+	<!--header-->
+	<header>
+	<!-- <header style="background-image: url(http://www.hellawella.com/sites/hellawella.com/files/styles/default/public/images/eats/Eats_Cooking.jpg?itok=iRh9Rx8H)"> -->
+	<div class="banner row" id="banner">
+		<div class="parallax text-center">
+			<div class="parallax-pattern-overlay">
+				<div class="container text-center" style="height:580px;padding-top:170px;">
+					<a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="/css/homepage/img/logo.png" alt="logo"/></a>
+					<h2 class="intro wow zoomIn" wow-data-delay="0.4s" wow-data-duration="0.9s">Recipe Book</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="navbar-wrapper">
+			<div class="container">
+				<div class="navwrapper">
+					<div class="navbar navbar-inverse navbar-static-top">
+						<div class="container">
+							<div class="navArea">
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav" style="font-size:24px;">
+										<li class="menuItem active"><a href="/">Home</a></li>
+										<li class="menuItem active"><a href="/myrecipe">My Recipes</a></li>
+										<!-- <li class="menuItem"><a href="#aboutus">Login</a></li>
+										<li class="menuItem"><a href="#specialties">Sign Up</a></li>
+										<li class="menuItem"><a href="#gallery">Log Out</a></li> -->
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</header>
+
+
+</div><!--wrapper end-->
+
+<!--Javascripts-->
+<script src="/js/homepage/js/jquery.js"></script>
+<script src="/js/homepage/js/bootstrap.js"></script>
+<script src="/js/homepage/js/menustick.js"></script>
+<script src="/js/homepage/js/wow.js"></script>
+<script src="/js/homepage/js/common.js"></script>
+
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'aboutus',
+		  2: 'specialties',
+		  3: 'gallery',
+		  4: 'feedback',
+		  5: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	});
+});
+</script>
+</body>
+</html>
